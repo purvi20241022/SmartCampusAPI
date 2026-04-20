@@ -32,7 +32,7 @@ public class DataStore {
         r1.getSensorIds().add(s1.getId());
         r2.getSensorIds().add(s2.getId());
 
-        // Empty reading lists
+        // Empty reading lists (ready to accept POST data)
         readings.put(s1.getId(), new ArrayList<>());
         readings.put(s2.getId(), new ArrayList<>());
     }
