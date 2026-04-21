@@ -1,10 +1,9 @@
-package com.smartcampus;
+package com.mycompany.smartcampusapi;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
 @ApplicationPath("/api/v1")
 public class SmartCampusApp extends Application {
-    // No code needed inside — Jersey auto-discovers your resource classes
+    // Jersey auto-discovers @Path and @Provider classes in this package
 }
-
