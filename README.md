@@ -397,4 +397,4 @@ The `GlobalExceptionMapper` solves this by catching all `Throwable` instances an
 
 ## Author
 
-purvi20241022 — University of Westminster, 5COSC022W Client-Server Architectures, 2025/26
+purvi20241022 — University of Westminster, 5COSC022C.2 Client-Server Architectures, 2025/26
