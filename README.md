@@ -287,9 +287,9 @@ curl -X DELETE http://localhost:8080/api/v1/rooms/a1b2c3d4-e5f6-7890-abcd-ef1234
 **Expected response (409 Conflict):**
 ```json
 {
-  "status": 409,
-  "error": "Conflict",
-  "message": "Room cannot be deleted because it still has active sensors assigned to it."
+  "error": "409 Conflict",
+  "message": "Room LIB-301 still has sensors assigned to it.",
+  "roomId": "LIB-301"
 }
 ```
 
@@ -303,10 +303,11 @@ curl -X POST http://localhost:8080/api/v1/sensors/[maintenance-sensor-id]/readin
 ```
 **Expected response (403 Forbidden):**
 ```json
+
 {
-  "status": 403,
-  "error": "Forbidden",
-  "message": "Sensor is currently in MAINTENANCE and cannot accept new readings."
+  "error": "403 Forbidden",
+  "message": "Sensor TEMP-001 is under MAINTENANCE and cannot accept readings.",
+  "sensorId": "TEMP-001"
 }
 ```
 
@@ -326,9 +327,9 @@ curl -X POST http://localhost:8080/api/v1/sensors \
 **Expected response (422 Unprocessable Entity):**
 ```json
 {
-  "status": 422,
-  "error": "Unprocessable Entity",
-  "message": "The referenced roomId does not exist in the system."
+  "error": "422 Unprocessable Entity",
+  "message": "Room not found with id: does-not-exist-id",
+  "invalidRoomId": "does-not-exist-id"
 }
 ```
 
