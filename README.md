@@ -51,6 +51,8 @@ The API follows REST architectural principles including:
 
 ## Project Structure
 
+## Project Structure
+
 ```
 SmartCampusAPI/
 ├── pom.xml
@@ -58,28 +60,28 @@ SmartCampusAPI/
     └── main/
         └── java/
             └── com/
-                └── smartcampus/
-                    ├── Main.java
-                    ├── SmartCampusApp.java
-                    ├── model/
-                    │   ├── Room.java
-                    │   ├── Sensor.java
-                    │   └── SensorReading.java
-                    ├── store/
-                    │   └── DataStore.java
-                    ├── resource/
-                    │   ├── DiscoveryResource.java
-                    │   ├── RoomResource.java
-                    │   ├── SensorResource.java
-                    │   └── SensorReadingResource.java
-                    └── exception/
-                        ├── RoomNotEmptyException.java
-                        ├── RoomNotEmptyExceptionMapper.java
-                        ├── LinkedResourceNotFoundException.java
-                        ├── LinkedResourceNotFoundExceptionMapper.java
-                        ├── SensorUnavailableException.java
-                        ├── SensorUnavailableExceptionMapper.java
-                        └── GlobalExceptionMapper.java
+                └── mycompany/
+                    └── smartcampusapi/
+                        ├── SmartCampusAPI.java
+                        ├── data/
+                        │   └── DataStore.java
+                        ├── models/
+                        │   ├── Room.java
+                        │   ├── Sensor.java
+                        │   └── SensorReading.java
+                        ├── resources/
+                        │   ├── DiscoveryResource.java
+                        │   ├── RoomResource.java
+                        │   ├── SensorResource.java
+                        │   └── SensorReadingResource.java
+                        └── exceptions/
+                            ├── RoomNotEmptyException.java
+                            ├── RoomNotEmptyMapper.java
+                            ├── LinkedResourceNotFoundException.java
+                            ├── LinkedResourceNotFoundMapper.java
+                            ├── SensorUnavailableException.java
+                            ├── SensorUnavailableMapper.java
+                            └── GlobalExceptionMapper.java
 ```
 
 ---
