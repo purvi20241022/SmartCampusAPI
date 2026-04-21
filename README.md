@@ -127,8 +127,8 @@ You should see `BUILD SUCCESS` in the Output window.
 ## How to Run from NetBeans
 
 1. Open the **Projects** panel on the left
-2. Expand **Source Packages → com.smartcampus**
-3. Open `Main.java`
+2. Expand **Source Packages → com.mycompany.smartcampusapi**
+3. Open `SmartCampusAPI.java`
 4. Right-click anywhere in the editor → **Run File** (or press Shift + F6)
 5. The Output window will show:
 
