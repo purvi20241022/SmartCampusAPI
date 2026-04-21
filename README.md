@@ -167,13 +167,13 @@ Press ENTER to stop the server...
 |---|---|---|---|
 | GET | `/api/v1/sensors` | List all sensors (optional `?type=` filter) | 200 |
 | POST | `/api/v1/sensors` | Register a new sensor | 201 / 422 |
+| GET | `/api/v1/sensors/{sensorId}` | Get sensor by ID | 200 / 404 |
 
 ### Sensor Readings (Sub-resource)
 | Method | Path | Description | Response |
 |---|---|---|---|
-| GET | `/api/v1/sensors/{sensorId}/readings` | Get reading history | 200 |
-| POST | `/api/v1/sensors/{sensorId}/readings` | Add a new reading | 201 / 403 |
-
+| GET | `/api/v1/sensors/{sensorId}/readings` | Get reading history | 200 / 404 |
+| POST | `/api/v1/sensors/{sensorId}/readings` | Add a new reading | 201 / 403 / 404 |
 ---
 
 ## Sample curl Commands
