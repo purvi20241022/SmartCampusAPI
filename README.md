@@ -1,6 +1,6 @@
 # Smart Campus Sensor & Room Management API
 
-A RESTful API built with JAX-RS (Jersey 2) and Grizzly HTTP server for managing rooms and sensors across a university smart campus. This project was developed as coursework for the 5COSC022W Client-Server Architectures module at the University of Westminster.
+A RESTful API built with JAX-RS (Jersey 2) and Grizzly HTTP server for managing rooms and sensors across a university smart campus. This project was developed as coursework for the 5COSC022C.2 Client-Server Architecture module at the University of Westminster.
 
 ---
 
