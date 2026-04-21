@@ -1,9 +1,9 @@
 # Smart Campus Sensor & Room Management API
 
 **Module:** 5COSC022C.2 — Client-Server Architectures (2025)  
-**Student:** [Your Name]  
-**Student ID:** [Your Student ID]  
-**GitHub Repo:** [Your GitHub URL]
+**Student:** Purvi Kaluarachchi 
+**Student ID:** 20241022 
+**GitHub Repo:** https://github.com/purvi20241022/SmartCampusAPI
 
 ---
 
